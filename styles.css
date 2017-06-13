@@ -1,0 +1,171 @@
+
+/*-----------------------------------------------------------------
+	Fonts
+-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------
+	Bulk styles
+-----------------------------------------------------------------*/
+
+h1, h2, h3, p, legend, input, label, fieldset {
+	font-family: 'Bubbler One', sans-serif;
+	color: #909DA6;
+	display: inline-block;
+}
+
+.container{
+	background-color: #fff;
+	margin: 0 5%;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+input:focus, 
+textarea:focus{
+	background: lightyellow;
+	outline: none;
+	border: 2px solid #21324f;
+
+
+} 
+
+/*-----------------------------------------------------------------
+	Header
+-----------------------------------------------------------------*/
+
+.header{
+	background-color: #21324f;
+	margin: 0 auto;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.header h1{
+	color: #fff;
+
+}
+
+
+
+/*-----------------------------------------------------------------
+	Body
+-----------------------------------------------------------------*/
+fieldset{
+	border: none;
+}
+
+.banner{
+	border-bottom: solid 6px #21324f;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+
+}
+
+.form{
+	margin-top: 2px;
+	border-top: solid 2px #21324f;
+	padding: 2em 0;
+}
+
+h2{
+	font-size: 2em;
+	color: black;
+}
+
+form legend{
+	color: black;
+	font-size: 1.5em;
+}
+
+fieldset {
+	margin-top: 2em;
+	border-top: solid 2px #21324f;
+}
+
+input{
+	width: 95%;
+	height: 2em;
+	margin: 8px 0 0 0;
+	background-color: #EFF0F1;
+	border-radius: 4px;
+}
+
+label{
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+
+input[placeholder]{
+	text-align: right;
+}
+
+.zipcode{
+	width: 40%;
+
+}
+
+input [type="checkbox"]{
+	width: 30%;
+}
+
+[type="checkbox"], [type="radio"]{
+	height: .8em;
+	width: 40px;
+	display: inline-block;
+}
+
+[type="checkbox"] + label, [type="radio"] + label{
+	margin: 10px 0 10px 0;
+}
+
+textarea{
+	width: 100%;
+	background-color: #eff0f1;
+	border-radius: 8px;
+	border: none;
+	height: 6em;
+}
+
+.button{
+	background-color: #53bab4;
+	color: #fff;
+	font-size: 1.3em;
+	width: 100%;
+
+}
+
+.copyright{
+	text-align: center;
+	display: block;
+}
+
+/*-----------------------------------------------------------------
+	Responsive styles
+-----------------------------------------------------------------*/
+
+@media all and (min-width: 768px){
+	.container{
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	label {
+		width: 27.5%;
+		display: inline-block;
+	}
+
+	input {
+	    width: 70%;
+		display: inline-block;
+	}
+
+	[for="newsletter"],[for="topics"]{
+		width: 100%;
+	}
+
+
+}
