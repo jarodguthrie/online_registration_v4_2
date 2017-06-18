@@ -109,6 +109,10 @@ input[placeholder]{
 
 }
 
+input#city{
+	display: block;
+}
+
 input [type="checkbox"]{
 	width: 30%;
 }
@@ -159,7 +163,7 @@ textarea{
 		display: inline-block;
 	}
 
-	input, select#state {
+	input, select#state, input#city {
 	    width: 70%;
 		display: inline-block;
 	}
