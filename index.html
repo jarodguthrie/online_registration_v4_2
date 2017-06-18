@@ -43,7 +43,8 @@
         <input type="text" id="city" name="user_city"><br>
 
         <label for="state"> State </label>
-        <select name="state" id="state">
+        <select name="state" id="state" placholder='Choose State'>
+          <option value="" disabled selected>Choose State</option>
           <option value="VIC"> VIC</option>
           <option value="NSW"> NSW</option>
           <option value="QLD"> QLD</option>
@@ -54,7 +55,7 @@
           <option value="SA"> SA</option>
         </select> <br>
 
-        <label  for="zip-code"> Zip Code </label>
+        <label  for="zip-code"> Zip Code </label> 
         <input class="zipcode" type="text" id="zip-code" name="user_zip_code">
 
       </fieldset>
@@ -63,7 +64,7 @@
         <legend class="newsletter"> Newsletter </legend>
 
           <p>Select the newsletters you would like to recieve</p> <br>
-            <input type="checkbox" id="html_news" name="newsletter" value="html_news"> 
+            <input type="checkbox" id="html_news" name="newsletter" value="html_news" checked> 
             <label for="html_news">HTML News </label> <br>
             <input type="checkbox" id="css_news" name="newsletter" value="css_news">
             <label for="css_news">CSS News </label> <br>
@@ -71,7 +72,7 @@
             <label for="javascript_news">Javascript News </label> <br>
 
           <p> Newsletter format </p> <br>
-            <input type="radio" id="html_email" name="newsletter_format" value="html">
+            <input type="radio" id="html_email" name="newsletter_format" value="html" checked>
             <label for="html_email">HTML Email</label><br>
             <input type="radio" id="plain_text_email" name="newsletter_format" value="text"> Plain text
             <label for="plain_text_email"> Plain text email </label> <br>
