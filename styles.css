@@ -7,7 +7,7 @@
 	Bulk styles
 -----------------------------------------------------------------*/
 
-h1, h2, h3, p, legend, input, label, fieldset {
+h1, h2, h3, p, legend, input, label, fieldset, select#state {
 	font-family: 'Bubbler One', sans-serif;
 	color: #909DA6;
 	display: inline-block;
@@ -86,7 +86,7 @@ fieldset {
 	border-top: solid 2px #21324f;
 }
 
-input{
+input, select#state{
 	width: 95%;
 	height: 2em;
 	margin: 8px 0 0 0;
@@ -105,6 +105,7 @@ input[placeholder]{
 
 .zipcode{
 	width: 40%;
+	display: block;
 
 }
 
@@ -158,8 +159,13 @@ textarea{
 		display: inline-block;
 	}
 
-	input {
+	input, select#state {
 	    width: 70%;
+		display: inline-block;
+	}
+
+	input#zip-code{
+		width: 30%;
 		display: inline-block;
 	}
 
