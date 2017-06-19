@@ -10,7 +10,6 @@
 h1, h2, h3, p, legend, input, label, fieldset, select#state {
 	font-family: 'Bubbler One', sans-serif;
 	color: #909DA6;
-	display: inline-block;
 }
 
 .container{
@@ -31,6 +30,11 @@ textarea:focus{
 
 
 } 
+
+label{
+	display: inline-block;
+
+}
 
 /*-----------------------------------------------------------------
 	Header
